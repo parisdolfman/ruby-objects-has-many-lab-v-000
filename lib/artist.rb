@@ -1,12 +1,11 @@
 class Artist
- attr_accessor :name, :songs, :artist_name, :song_count
+ attr_accessor :name, :songs
 
 @@song_count = 0
 
  def initialize(name) #takes in argument of name upon initialization
    @name = name
    @songs = [] #empty array for instantiated objects to go into
-   @artist_name = artist_name
  end
 
  def add_song(song)
