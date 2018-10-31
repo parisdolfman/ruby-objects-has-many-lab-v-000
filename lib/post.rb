@@ -9,10 +9,10 @@ def initialize(title)
 end
 
 def author_name(post, author = nil)
-  post.author  = self
+  post.author = self
 end
 
-def all
+def self.all
   @@all
 end
 
