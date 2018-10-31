@@ -9,8 +9,8 @@ def initialize(title)
 end
 
 def author_name
-  if #something
-    #self.something to return author name
+  if self.author
+    self.author.name
   else
     nil
   end
