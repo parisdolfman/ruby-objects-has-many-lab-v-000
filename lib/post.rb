@@ -8,11 +8,11 @@ def initialize(title)
 @@all << self
 end
 
-def author_name(author = nil)
-  if #something 
+def author_name
+  if #something
     #self.something to return author name
-  else 
-    nil 
+  else
+    nil
   end
 end
 
