@@ -8,8 +8,16 @@ def initialize(title)
 @@all << self
 end
 
-def author_name(post, author = nil)
-  post.author  = self
+def author_name
+  if self.author
+    self.author.name
+  else
+    nil
+  end
+end
+
+def self.all
+  @@all
 end
 
 end
