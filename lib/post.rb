@@ -8,7 +8,7 @@ def initialize(title)
 @@all << self
 end
 
-def author_name(post, author = nil)
+def author_name(author = nil)
   post.author = self
 end
 
