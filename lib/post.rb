@@ -9,7 +9,11 @@ def initialize(title)
 end
 
 def author_name(author = nil)
-  post.author = self
+  if #something 
+    #self.something to return author name
+  else 
+    nil 
+  end
 end
 
 def self.all
