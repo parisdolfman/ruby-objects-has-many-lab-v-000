@@ -12,4 +12,8 @@ def author_name(post, author = nil)
   post.author  = self
 end
 
+def all 
+  @@all
+end  
+
 end
