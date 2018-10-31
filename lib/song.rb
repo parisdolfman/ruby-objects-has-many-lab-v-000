@@ -1,14 +1,12 @@
 
 class Song
- attr_accessor :name, :artist, :artist_name
+ attr_accessor :name, :artist
 
 @@all = [] #empty array to equal variable
 
- def initialize(name)
-
-   @name = name
+ def initialize(name) #when object instantiated, whatever argument passed assigned variable 'name'
+   @name = name #attribute writer, returns instance of variable
    @artist = artist
-   @@artist_name = artist_name
    @@all << self
  end
 
